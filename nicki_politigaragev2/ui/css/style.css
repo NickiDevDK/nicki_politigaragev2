@@ -1,0 +1,153 @@
+body{
+
+}
+
+h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 600px;
+    height: 953px;
+    background: rgba(36, 36, 36, 0.685);
+    border-radius: 5px;
+    border: 4px outset #0084ff;
+    position: relative;
+    left: 575px;
+    top: -0px;
+}
+
+    .box1{
+    background: rgba(36, 36, 36, 0.685);
+    width: 225px;
+    height: 210px;
+    border: 3px outset #0084ff;
+    position: relative;
+    top: 40px;
+    left: 190px;
+}
+
+    .box2{
+    background: rgba(36, 36, 36, 0.685);
+    width: 225px;
+    height: 210px;
+    border: 3px outset #0084ff;
+    position: relative;
+    top: 135px;
+    left: 190px;
+}
+
+    .box3{
+    background: rgba(36, 36, 36, 0.685);
+    width: 225px;
+    height: 210px;
+    border: 3px outset #0084ff;
+    position: relative;
+    top: 230px;
+    left: 190px;
+}
+
+    .btnsøg{
+    background: rgba(36, 36, 36, 0.685);
+    font-size: 13px;
+    color: white;
+    padding: 15px 71px;
+    border: 3px outset #0084ff;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    top: -584px;
+    left: 190px;
+}
+
+    .btnsøg2{
+    background: rgba(36, 36, 36, 0.685);
+    font-size: 13px;
+    color: white;
+    padding: 15px 96px;
+    border: 3px outset #0084ff;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    top: -273px;
+    left: -45px;
+}
+
+    .btnsøg3{
+    background: rgba(36, 36, 36, 0.685);
+    font-size: 13px;
+    color: white;
+    padding: 15px 86px;
+    border: 3px outset #0084ff;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    top: -13px;
+    left: 190px;
+}
+
+    .btnsøg:hover{
+    color: white;
+    background-color: #277713;
+    border: 3px solid #277713;
+}
+
+    .btnsøg2:hover{
+    color: white;
+    background-color: #277713;
+    border: 3px solid #277713;
+}
+
+    .btnsøg3:hover{
+    color: white;
+    background-color: #277713;
+    border: 3px solid #277713;
+}
+
+    /* close */
+    .btnClose{
+    position: relative;
+    top: -893px;
+    left: 335px;
+    font-size: 15px;
+    color: #ff0000;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+  
+    .btnClose:hover{
+    color: #d3000e;
+  }
+
+    .repairimg{
+    width: 185px;
+    height: 185px;
+    position: relative;
+    left: 215px;
+    top: -593px;
+  }
+
+    .washimg{
+    width: 185px;
+    height: 185px;
+    position: relative;
+    left: 20px;
+    top: -275px;
+  }
+
+    .parkimg{
+    width: 185px;
+    height: 185px;
+    position: relative;
+    left: -162px;
+    top: 30px;
+  }

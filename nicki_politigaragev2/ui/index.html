@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nicki Development</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+</head>
+<body>
+    <v-app id="nicki">
+        <v-content>
+            <div id="nicki_SelectUIs" v-show="showUI">
+                <div class="container">
+                    <div class="box1">
+                        
+                    </div>
+                    <div class="box2">
+
+                    </div>
+                    <div class="box3">
+                        </div>
+            
+                        <img src="img/repair.png" class="repairimg">
+                        <img src="img/wash.png" class="washimg">
+                        <img src="img/parking.png" class="parkimg">
+                        <button type="button" class="btnsøg" @click="Choose1()">REPARATION</button>
+                        <button type="button" class="btnsøg2" @click="Choose2()">VASK</button>
+                        <button type="button" class="btnsøg3" @click="Choose3()">PARKER</button>
+                        <button class="btnClose" @click="CloseMenu()"><i class="fas fa-times fa-2x"></i></button>
+                    </div>
+                </div>
+            </div>
+        </v-content>
+    </v-app>
+    <script src="libraries/axios.min.js"></script>
+    <script src="libraries/vue.min.js"></script>
+    <script src="libraries/vuetify.js"></script>
+    <script src="script.js"></script>                 
+</body>
+</html>
